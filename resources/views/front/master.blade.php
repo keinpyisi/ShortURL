@@ -14,13 +14,18 @@
     </head>
 <body>
     <header>
-        <div id="logo"><a href="https://www.shorturl.at/" class="logo">Short URL</a></div>
+        <div id="logo">
+            <img src="/dist/img/logo.png" width="150px" height="150px" alt="">
+            {{-- <img src="https://static.tumblr.com/ciw9oon/JlRnbeayw/2-giphy-header-1000x362-.12fps.gif" alt=""> --}}
+            {{-- <a href="https://blog.giphy.com/" class="logo">
+            Short URL</a> --}}
+        </div>
     </header>
     <main>
         @yield('content')
     </main>
     @include('front.footer')
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31391210-44" type="37618d96ed9681bdb898a269-text/javascript"></script>
+        {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31391210-44" type="37618d96ed9681bdb898a269-text/javascript"></script> --}}
         <script type="37618d96ed9681bdb898a269-text/javascript">
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
