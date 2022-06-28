@@ -42,8 +42,7 @@ class ShortLinkController extends Controller
     
          $input['original_url'] = $request->original_url;
          $input['short_url'] = Str::random(6);
- 
-    
+         
          ShortLink::create($input);
 
          $short = $input['short_url'];
@@ -54,8 +53,14 @@ class ShortLinkController extends Controller
 
     public function show($short)
     {
-        
+
         return view('front.shortener');
+    }
+
+    public function shortenLink($short_url)
+    {
+        $find = ShortLink::where('short_url', $short_url)->first();
+        return redirect($find->original_url);
     }
 
     /**

@@ -24,6 +24,8 @@ Route::get('/shortener',[ShortLinkController::class,'show']);
 
 Route::post('/shortener',[ShortLinkController::class,'store'])->name('shortener.post');
 
+Route::get('{code}', [ShortLinkController::class,'shortenLink'])->name('shorten.link');
+
 
 
 Route::get('/dashboard', function () {
