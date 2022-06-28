@@ -25,7 +25,7 @@
         @yield('content')
     </main>
     @include('front.footer')
-        {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31391210-44" type="37618d96ed9681bdb898a269-text/javascript"></script> --}}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31391210-44" type="37618d96ed9681bdb898a269-text/javascript"></script>
         <script type="37618d96ed9681bdb898a269-text/javascript">
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
