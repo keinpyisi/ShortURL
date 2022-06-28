@@ -21,7 +21,7 @@
     <section id="urlbox">
     <br><br>
     <div id="formurl" style="max-width: 400px;">
-    <input id="shortenurl" type="text" value="shorturl.at/gnxGW" onClick="if (!window.__cfRLUnblockHandlers) return false; this.select();" data-cf-modified-27ae45fd9d8f2c3792307ccb-="">
+    <input id="shortenurl" type="text" value="{{$short}}" onClick="if (!window.__cfRLUnblockHandlers) return false; this.select();" data-cf-modified-27ae45fd9d8f2c3792307ccb-="">
     <div id="formbutton">
     <input type="button" data-clipboard-target="#shortenurl" class="copy" value="Copy URL" onclick="if (!window.__cfRLUnblockHandlers) return false; toggle_visibility('balloon');" data-cf-modified-27ae45fd9d8f2c3792307ccb-="">
     </div>
@@ -42,4 +42,5 @@
     </div>
     </section>
 @endsection
+
 
