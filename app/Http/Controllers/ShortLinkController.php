@@ -46,13 +46,14 @@ class ShortLinkController extends Controller
     
          ShortLink::create($input);
    
-        return redirect('shortener')->with($url = $input['short_url']);
+        return redirect('shortener');
         
     }
 
 
     public function show($url)
     {
+
         return view('front.shortener');
     }
 
