@@ -4,6 +4,10 @@
     <head>
         <meta charset="utf-8">
         <title>URL Shortener</title>
+        <meta property="og:title" content="ShortURL - URL Shortener">
+        <meta property="og:url" content="https://www.shorturl.at/">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://www.shorturl.at/img/shorturl-icon.png">
         <meta name="description" content="ShortURL is a url shortener to reduce a long link. Use our tool to shorten links and then share them, in addition you can monitor traffic statistics.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
             <style type="text/css">
