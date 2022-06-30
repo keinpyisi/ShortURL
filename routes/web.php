@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\ShortLinkController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ShortLinkController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,19 +26,18 @@ Route::post('/shortener',[ShortLinkController::class,'store'])->name('shortener.
 
 Route::get('{code}', [ShortLinkController::class,'shortenLink'])->name('shorten.link');
 
-
-
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth'])->name('dashboard');
 
 require __DIR__.'/auth.php';
 
 Route::middleware('auth')->group(function () {
-    Route::view('about', 'about')->name('about');
+    Route::view('admin/about', 'about')->name('about');
 
-    Route::get('users', [\App\Http\Controllers\UserController::class, 'index'])->name('users.index');
+    Route::get('admin/users', [\App\Http\Controllers\UserController::class, 'index'])->name('users.index');
+    Route::get('admin/links', [\App\Http\Controllers\UserController::class, 'shorturl'])->name('users.shorturl');
 
-    Route::get('profile', [\App\Http\Controllers\ProfileController::class, 'show'])->name('profile.show');
-    Route::put('profile', [\App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
+    Route::get('admin/profile', [\App\Http\Controllers\ProfileController::class, 'show'])->name('profile.show');
+    Route::put('admin/profile', [\App\Http\Controllers\ProfileController::class, 'update'])->name('profile.update');
 });

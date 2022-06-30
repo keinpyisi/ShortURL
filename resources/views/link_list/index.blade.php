@@ -1,6 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
-        {{ __('Admin List') }}
+        {{ __('URL List') }}
     </x-slot>
 
     <div class="p-4 bg-white rounded-lg shadow-xs">
@@ -15,7 +15,7 @@
             <div class="px-4 py-2 -mx-3">
                 <div class="mx-3">
                     <span class="font-semibold text-blue-500">Info</span>
-                    <p class="text-sm text-gray-600">Admin List</p>
+                    <p class="text-sm text-gray-600">Shortned List</p>
                 </div>
             </div>
         </div>
@@ -25,18 +25,27 @@
                 <table class="w-full whitespace-no-wrap">
                     <thead>
                     <tr class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase bg-gray-50 border-b">
-                        <th class="px-4 py-3">Name</th>
-                        <th class="px-4 py-3">Email</th>
+                        <th class="px-4 py-3">ID</th>
+                        <th class="px-4 py-3">Original URL</th>
+                        <th class="px-4 py-3">Shortned URL</th>
+                        <th class="px-4 py-3">Created At</th>
+
                     </tr>
                     </thead>
                     <tbody class="bg-white divide-y">
-                    @foreach($users as $user)
+                    @foreach($sho_links as $sho_link)
                         <tr class="text-gray-700">
                             <td class="px-4 py-3 text-sm">
-                                {{ $user->name }}
+                                {{ $sho_link->id }}
                             </td>
                             <td class="px-4 py-3 text-sm">
-                                {{ $user->email }}
+                                {{ $sho_link->original_url }}
+                            </td>
+                            <td class="px-4 py-3 text-sm">
+                                {{ $sho_link->short_url }}
+                            </td>
+                            <td class="px-4 py-3 text-sm">
+                                {{ $sho_link->created_at }}
                             </td>
                         </tr>
                     @endforeach
@@ -44,7 +53,7 @@
                 </table>
             </div>
             <div class="px-4 py-3 text-xs font-semibold tracking-wide text-gray-500 uppercase bg-gray-50 border-t sm:grid-cols-9">
-                {{ $users->links() }}
+                {{ $sho_links->links() }}
             </div>
         </div>
 
