@@ -11,7 +11,7 @@
               <div class="form-group">
                   <input id="shortenurl" type="text" value="{{url('/').'/'.$short}}" class="form-control input-lg"  />
                   <button onclick="myFunction()">
-                    <img src="/dist/img/Right-Arrow.png" alt="" />
+                    <img src="/dist/img/copy.png" alt="" />
                   </button>
               </div>
             </div>
@@ -20,7 +20,6 @@
               Mighty URL Shortener is a service that takes long URLs and squeezes them into fewer characters to make a link that is easier to share tweet email to friends. </div>
           </div>
       </div>
-  
   </header>
 @endsection
 

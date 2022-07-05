@@ -20,6 +20,5 @@
             Mighty URL Shortener is a service that takes long URLs and squeezes them into fewer characters to make a link that is easier to share tweet email to friends. </div>
         </div>
     </div>
-
 </header>
 @endsection
