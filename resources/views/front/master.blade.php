@@ -1,42 +1,21 @@
-
 <!DOCTYPE html>
-<html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <title>URL Shortener</title>
-        <meta property="og:title" content="ShortURL - URL Shortener">
-        <meta property="og:url" content="https://www.shorturl.at/">
-        <meta property="og:type" content="website">
-        <meta property="og:image" content="https://www.shorturl.at/img/shorturl-icon.png">
-        <meta name="description" content="ShortURL is a url shortener to reduce a long link. Use our tool to shorten links and then share them, in addition you can monitor traffic statistics.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-            <style type="text/css">
-                @import url(https://fonts.googleapis.com/css?family=Asap:400,700|Lato:400,700,900|Source+Sans+Pro:400,700&display=swap);
-            </style>
-            <link rel="stylesheet" href="/dist/style.css">
-            <link rel="shortcut icon" href="favicon.ico">
-    </head>
+<html lang="en">
+<head>
+<meta charset="utf-8" /> <title>@yield('title','SHORT URL')</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="og:title" content="">
+<meta name="og:description" content="">
+<meta property="og:image" content="" />
+@include('front.css')
+</head>
 <body>
-    <header>
-        <div id="logo">
-            <img src="/dist/img/logo.png" width="150px" height="150px" alt="">
-            {{-- <img src="https://static.tumblr.com/ciw9oon/JlRnbeayw/2-giphy-header-1000x362-.12fps.gif" alt=""> --}}
-            {{-- <a href="https://blog.giphy.com/" class="logo">
-            Short URL</a> --}}
-        </div>
-    </header>
-    <main>
-        @yield('content')
-    </main>
-    @include('front.footer')
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-31391210-44" type="37618d96ed9681bdb898a269-text/javascript"></script>
-        <script type="37618d96ed9681bdb898a269-text/javascript">
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+@include('front.header')
 
-        gtag('config', 'UA-31391210-44');
-        </script>
-        <script data-cfasync="false" async src="/sw.js"></script>
-        <script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="37618d96ed9681bdb898a269-|49" defer=""></script></body>
+@yield('content')
+
+@include('front.footer')
+@include('front.js')
+</body>
 </html>

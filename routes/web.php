@@ -14,11 +14,10 @@ use App\Http\Controllers\ShortLinkController;
 |
 */
 
-Route::get('/', function () {
-    return view('front.index');
-});
+
 
 Route::get('/',[ShortLinkController::class,'index']);
+
 
 Route::get('/shortener',[ShortLinkController::class,'show']);
 

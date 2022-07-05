@@ -1,17 +1,25 @@
 @extends('front.master')
 
 @section('content')
-<section id="urlbox">
-    <h1>Paste the URL to be shortened</h1>
-        <form action="{{url('/shortener')}}" method="post">
+
+<header class="shorten">
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-heading wow zoomIn" data-wow-delay=".3s">URL Shortener</div>
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+        <form action="{{url('/shortener')}}" method="post"   id="shorten" class="form-inline" >
             @csrf
-            <div id="formurl">
-                <input type="text" name="original_url" placeholder="Enter the link here">
-                    <div id="formbutton">
-                        <input type="submit">
-                    </div>
+            <div class="form-group">
+                <input type="text" name="original_url" placeholder="Your URL Here" required="required" class="form-control input-lg" id="url" />
+                <button type="submit"><img src="/dist/img/Right-Arrow.png" alt="" /></button>
             </div>
         </form>
-    <br/>
-</section>
+        </div>
+        <div class="slogan">
+            Mighty URL Shortener is a service that takes long URLs and squeezes them into fewer characters to make a link that is easier to share tweet email to friends. </div>
+        </div>
+    </div>
+
+</header>
 @endsection

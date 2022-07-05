@@ -1,5 +1,12 @@
 <footer>
-    <div id="footerbox">
-        <div>© 2022 HelloWorld Dev</div>
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-">
+    <div class="bottom-menu">
+    </div>
+    </div>
+    </div>
+    <div class="copyright text-center">
+    Copyright &copy; Short URL 2022 </div>
     </div>
 </footer>
