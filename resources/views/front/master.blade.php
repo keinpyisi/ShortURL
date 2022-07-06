@@ -19,7 +19,7 @@
         <div class="section-heading wow bounceIn">
             <h1>Features</h1>
                 <div class="divider"></div>
-            <p>All Amazing Features</p>
+            {{-- <p>All Amazing Features</p> --}}
         </div>
         <div class="row">
             <div class="col-sm-3 col-xs-12">
