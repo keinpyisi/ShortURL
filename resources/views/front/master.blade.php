@@ -23,7 +23,7 @@
         </div>
         <div class="row">
             <div class="col-sm-3 col-xs-12">
-                <div class="about-item wow fadeInLeft" data-wow-delay="0s">
+                <div class="about-item wow fadeInLeft" data-wow-delay="0.3s">
                     <i class="fa fa-bar-chart fa-2x"></i>
                         <h3>Advanced Analytics</h3>
                     <p>Advanced Reporting & Analytics by <u>continents</u>, <u>countries</u>, <u>states</u>, <u>cities</u>, <u>device type</u>, <u>device brand</u> & <u>device name</u></p>
@@ -32,7 +32,7 @@
             <div class="col-sm-3 col-xs-12">
                 <div class="about-item wow fadeInLeft" data-wow-delay="0.3s">
                     <i class="fa fa-tachometer fa-2x"></i>
-                        <h3>Featured Administration Panel</h3>
+                        <h3> Administration Panel</h3>
                     <p>Control all of the features from the administration panel with a click of a button.</p>
                 </div>
             </div>

@@ -11,6 +11,7 @@
               <div class="form-group">
                   <input id="shortenurl" type="text" value="{{url('/').'/'.$short}}" class="form-control input-lg"  />
                   <button onclick="myFunction()">
+                    <span class="tooltip">Copied</span>
                     <img src="/dist/img/copy.png" alt="" />
                   </button>
               </div>

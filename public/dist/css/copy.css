@@ -1,0 +1,24 @@
+.tooltip {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+  background: #373737;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  opacity: 0;
+  
+  &.appear {
+    animation: appear 1s ease;
+  }
+}
+
+@keyframes appear {
+  0%{opacity:0}
+  20%{ transform: translateY(10px); opacity:1}
+  80%{transform: translateY(0px); opacity:1}
+  100%{opacity:0}}

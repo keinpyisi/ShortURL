@@ -11,5 +11,8 @@
     navigator.clipboard.writeText(copyText.value);
 
     /* Alert the copied text */
-    alert("Copied the text: " + copyText.value);
+    $(this).children(".tooltip").addClass("appear").delay(1000).queue(function( next ){
+      $(this).removeClass("appear"); 
+      $(this).dequeue();
+    });
 }
