@@ -78,7 +78,7 @@
 - [x] Advanced API System
 - [x] Easy to use
 - [x] Easy to Install
-- [x]Unlimited API Request
+- [x] Unlimited API Request
 
 
 ## 🖼️ Screenshots
