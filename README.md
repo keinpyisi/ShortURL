@@ -1,9 +1,9 @@
-<<<<<<< HEAD
+
 [![Demo on Web](https://repl.it/badge/github/brblacky/lavamusic)](https://repl.it/github/brblacky/lavamusic)
 =======
 [![Run on Repl.it](https://repl.it/badge/github/brblacky/lavamusic)](https://repl.it/github/brblacky/lavamusic)
 [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/brblacky/lavamusic)
->>>>>>> main
+
 
 [![Version][version-shield]](version-url)
 [![Contributors][contributors-shield]][contributors-url]
@@ -11,13 +11,13 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-<<<<<<< HEAD
+
 <center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=SHORTURL&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
 <br>
 <h2 align="center">ShortURL</h2>
 <h4 align="center">High Quality URL Shortner With Share System, URL Log, 24/7 In Web and more for FREE!</h4>
 
-=======
+
 <center><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=lavamusic&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient" /></center>
 <br>
 <h2 align="center">Our Music Bot</h2>
@@ -26,7 +26,7 @@
 <a href="https://top.gg/bot/977742811132743762">
   <img src="https://top.gg/api/widget/977742811132743762.svg">
 </a>
->>>>>>> main
+
 <br />
 <br />
 <br />
@@ -34,7 +34,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-<<<<<<< HEAD
+
   <a href="https://github.com/keinpyisi/ShortURL">
     <img src="https://github.com/keinpyisi/ShortURL/raw/front/public/dist/img/logo.png" alt="Pbot-plus" width="200" height="200">
   </a>
@@ -50,7 +50,7 @@
     <a href="https://github.com/keinpyisi/ShortURL/issues">Report Bug</a>
     ·
     <a href="https://github.com/keinpyisi/ShortURL/issues">Request Feature</a>
-=======
+
   <a href="https://github.com/brblacky/lavamusic">
     <img src="https://media.discordapp.net/attachments/876035356460462090/887728792926290091/20210820_124325.png" alt="Pbot-plus" width="200" height="200">
   </a>
@@ -71,7 +71,7 @@
 </p>
 
 
-<<<<<<< HEAD
+
 ## 🎭 Features
 - [x] URL Shortner
 - [x] Admin Panel to see Log
