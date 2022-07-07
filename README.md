@@ -19,6 +19,12 @@ https://vocaloidnationmm.com.pl/
 - [x] Easy to Install
 - [x] Unlimited API Request
 
+### Requirements
+    php 8.0
+    laravel 9.0
+    Postman
+    
+
 ### Install
 
 `git clone https://github.com/keinpyisi/ShortURL`
