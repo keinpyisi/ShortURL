@@ -3,6 +3,28 @@
 This is an example of Short URL application providing a REST
 API to use.
 
+## 🎭 Features
+- [x] URL Shortner
+- [x] Administration Panel
+- [x] Advanced API System
+- [x] Easy to use
+- [x] Easy to Install
+- [x] Unlimited API Request
+
+### Install
+
+`git clone https://github.com/keinpyisi/ShortURL`
+
+    composer install
+ 
+    copy .env
+ 
+    php artisan key:generate
+ 
+    php artisan migrate
+ 
+    php artisan serve
+
 ### Request
 
 `api/shortener/`
