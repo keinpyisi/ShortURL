@@ -1,7 +1,7 @@
 # Short API Documentation
 
-ဘာမှစဉ်းစားမရသေးလို့မရေးသေးဘူး :3
-
+This is an example of Short URL application providing a REST
+API to use.
 
 ### Request
 
