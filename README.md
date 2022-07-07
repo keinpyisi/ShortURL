@@ -51,7 +51,7 @@
     ·
     <a href="https://github.com/keinpyisi/ShortURL/issues">Request Feature</a>
 
-  <a href="https://github.com/brblacky/lavamusic">
+  <a href="https://github.com/brblacky/lavamusic" align="center">
     <img src="https://media.discordapp.net/attachments/876035356460462090/887728792926290091/20210820_124325.png" alt="Pbot-plus" width="200" height="200">
   </a>
 
@@ -74,11 +74,11 @@
 
 ## 🎭 Features
 - [x] URL Shortner
-- [x] Admin Panel to see Log
-- [x] Can Add More Features Easilt
+- [x] Administration Panel
+- [x] Advanced API System
 - [x] Easy to use
 - [x] Easy to Install
-- [x] More
+- [x]Unlimited API Request
 
 
 ## 🖼️ Screenshots
