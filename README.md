@@ -45,15 +45,6 @@
     ShortURL is  a powerful URL Shortner made with Laravel
     <br />
     <br />
-    <a href="https://invite.moebot.cf/">SEE DEMO</a>
-    ·
-    <a href="https://github.com/keinpyisi/ShortURL/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/keinpyisi/ShortURL/issues">Request Feature</a>
-
-  <a href="https://github.com/brblacky/lavamusic">
-    <img src="https://media.discordapp.net/attachments/876035356460462090/887728792926290091/20210820_124325.png" alt="Pbot-plus"  width="200" height="200">
-  </a>
 
   <h3 align="center">lavamusic</h3>
 
@@ -66,7 +57,6 @@
     <a href="https://github.com/brblacky/lavamusic/issues">Report Bug</a>
     ·
     <a href="https://github.com/brblacky/lavamusic/issues">Request Feature</a>
->>>>>>> main
   </p>
 </p>
 
