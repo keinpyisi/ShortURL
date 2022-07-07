@@ -15,7 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('hello',[ShortLinkController::class,'index']);
 
 
 Route::post('/shortener',[ShortLinkController::class,'store']);
