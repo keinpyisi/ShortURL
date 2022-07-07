@@ -38,8 +38,7 @@ class ShortLinkController extends Controller
          
          ShortLink::create($input);
          $short = $input['short_url'];
-         return response()->json(url('/').'/'.$short);
-        // return "success";
+         return response()->json(["original"=> $input['original_url'], "short_url" => url('/')."/".$short ]);
     }
 
     /**

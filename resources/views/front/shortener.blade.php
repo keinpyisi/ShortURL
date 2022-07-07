@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="slogan">
-              Mighty URL Shortener is a service that takes long URLs and squeezes them into fewer characters to make a link that is easier to share tweet email to friends. </div>
+            URL Shortnerは長いURLを短くしてくれてどこでもシェーアーできる無料のサービスです。
           </div>
       </div>
   </header>

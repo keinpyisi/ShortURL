@@ -7,6 +7,6 @@
     </div>
     </div>
     <div class="copyright text-center">
-    Copyright &copy; Short URL 2022 </div>
+    Copyright &copy; Short URL 2022 by Krul and Lupin </div>
     </div>
 </footer>

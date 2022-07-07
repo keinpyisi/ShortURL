@@ -24,30 +24,30 @@
         <div class="row">
             <div class="col-sm-3 col-xs-12">
                 <div class="about-item wow fadeInLeft" data-wow-delay="0.3s">
-                    <i class="fa fa-bar-chart fa-2x"></i>
-                        <h3>Advanced Analytics</h3>
-                    <p>Advanced Reporting & Analytics by <u>continents</u>, <u>countries</u>, <u>states</u>, <u>cities</u>, <u>device type</u>, <u>device brand</u> & <u>device name</u></p>
+                    <i class="fa fa-thumbs-up fa-2x" ></i>
+                        <h3>Easy to use</h3>
+                    <p>URL Shortnerは簡単、早いで長くてもできる。</p>
                 </div>
             </div>
             <div class="col-sm-3 col-xs-12">
                 <div class="about-item wow fadeInLeft" data-wow-delay="0.3s">
                     <i class="fa fa-tachometer fa-2x"></i>
                         <h3> Administration Panel</h3>
-                    <p>Control all of the features from the administration panel with a click of a button.</p>
+                    <p>アドミンパーネルで簡単にURLをコントローできる</p>
                 </div>
             </div>
             <div class="col-sm-3 col-xs-12">
                 <div class="about-item wow fadeInLeft" data-wow-delay="0.9s">
                     <i class="fa fa-code fa-2x"></i>
                         <h3>Advanced API System</h3>
-                    <p>API allows you to develop applications that interface with this service.</p>
+                    <p>APIで他のデベロバさんたちにも利用できる</p>
                 </div>
             </div>
             <div class="col-sm-3 col-xs-12">
                 <div class="about-item wow fadeInLeft" data-wow-delay="0.3s">
                     <i class="fa fa-pencil-square-o fa-2x"></i>
-                        <h3>Edit Created Links</h3>
-                    <p>%s allows you to modify the long URL behind your customized shortlinks.</p>
+                        <h3>Unlimited API Request</h3>
+                    <p>APIは何回でもリクエス、何時間でも利用できる</p>
                 </div>
             </div>
         </div>
