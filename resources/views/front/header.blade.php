@@ -10,6 +10,9 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
+                      <a class="nav-link" href="https://github.com/keinpyisi/ShortURL/blob/main/README.md">Docs</a>
+                    </li>
+                    <li class="nav-item active">
                       <a class="nav-link" href="{{url('/admin/login')}}">Login <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
