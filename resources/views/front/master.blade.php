@@ -9,6 +9,8 @@
 <meta name="og:description" content="">
 <meta property="og:image" content="" />
 @include('front.css')
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2734907977933705"
+     crossorigin="anonymous"></script>
 </head>
 <body>
 @include('front.header')
